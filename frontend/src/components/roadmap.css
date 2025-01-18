@@ -1,0 +1,13 @@
+.image-blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: inherit;
+    filter: blur(8px);
+    z-index: 1;
+    mask-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 80%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 80%, transparent);
+  }
+  
